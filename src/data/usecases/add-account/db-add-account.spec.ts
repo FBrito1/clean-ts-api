@@ -21,7 +21,7 @@ const makeSut = (): SutTypes => {
   }
 }
 
-interface SutTypes {
+type SutTypes = {
   sut: DbAddAccount
   hashStub: Hasher
   addAccountRepositoryStub: AddAccountRepository
